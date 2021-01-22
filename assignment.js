@@ -1,10 +1,10 @@
-//Kilometer to meter conversion.
+
 
 function kilometerToMeter(kilometer) {
     var meter = kilometer / 1000;
     return meter;
 }
-//calculate the total price of watch,phone & laptop
+
 
 function budgetCalculator(watch,phone,laptop){
     var watchCost = watch * 50;
@@ -15,7 +15,7 @@ function budgetCalculator(watch,phone,laptop){
 }
 
 
-// find a longest name from an array.
+
 
 var friends = ["Rahul", "Ayan", "Subrata", "Sakib", "Saiful"];
 var longestName = friends[0];
