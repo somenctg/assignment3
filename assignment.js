@@ -3,8 +3,19 @@ function kilometerToMeter(kilometer) {
     var meter = kilometer / 1000;
     return meter;
 }
+//calculate the total price of watch,phone & laptop
+function budgetCalculator(watch,phone,laptop){
+    var watchPrice = watch*50;
+    var phonePrice = phone*100;
+    var laptopPrice = laptop*500;
+    var total = watchPrice + phonePrice + laptopPrice;
+    return total;
+}
+var total = budgetCalculator(5,15,45);
+console.log(total);
 
-//find a longest name from an array.
+// find a longest name from an array.
+
 var friends = ["Rahul", "Ayan", "Subrata", "Sakib", "Saiful"];
 var longestName = friends[0];
 
