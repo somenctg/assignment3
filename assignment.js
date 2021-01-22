@@ -11,8 +11,7 @@ function budgetCalculator(watch,phone,laptop){
     var total = watchPrice + phonePrice + laptopPrice;
     return total;
 }
-var total = budgetCalculator(5,15,45);
-console.log(total);
+
 
 // find a longest name from an array.
 
