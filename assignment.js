@@ -1,11 +1,12 @@
+//Kilometer to meter conversion.
 function kilometerToMeter(kilometer) {
     var meter = kilometer / 1000;
     return meter;
 }
 
-
+//find a longest name from an array.
 var friends = ["Rahul", "Ayan", "Subrata", "Sakib", "Saiful"];
-    var longestName = friends[0];
+var longestName = friends[0];
 
 function megaFriend(friends) {
     
@@ -18,6 +19,5 @@ function megaFriend(friends) {
     }
     return longestName;
 }
-var result = megaFriend(friends);
-console.log(result);
+
 
