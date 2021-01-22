@@ -1,14 +1,16 @@
 //Kilometer to meter conversion.
+
 function kilometerToMeter(kilometer) {
     var meter = kilometer / 1000;
     return meter;
 }
 //calculate the total price of watch,phone & laptop
+
 function budgetCalculator(watch,phone,laptop){
-    var watchPrice = watch*50;
-    var phonePrice = phone*100;
-    var laptopPrice = laptop*500;
-    var total = watchPrice + phonePrice + laptopPrice;
+    var watchCost = watch * 50;
+    var phoneCost = phone * 100;
+    var laptopCost = laptop * 500;
+    var total = watchCost + phoneCost + laptopCost;
     return total;
 }
 
